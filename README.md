@@ -31,7 +31,7 @@ pip install autopep8 pylint pytest
 - Write down your solution in main.py.
 - You can test your code by changing the parameters in the main function caller.
 - When you're finished, check your solution by opening the command prompt and type "py.test" or "pytest test_main".
-- When everything is done, submit your assignment with \*_insert command here_\* and our autograding system will grade your assignment.
+- When everything is done, submit your assignment and our autograding system will grade your assignment.
 
 ## Submission
 
