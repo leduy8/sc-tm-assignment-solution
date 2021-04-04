@@ -1,0 +1,7 @@
+/venv
+# /loops/__pycache__/
+# /loops/.pytest_cache/
+# /ref_types/__pycache__/
+# /ref_types/.pytest_cache/
+/*/__pycache__/
+/*/.pytest_cache/
