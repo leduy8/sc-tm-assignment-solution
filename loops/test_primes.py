@@ -42,7 +42,8 @@ def test_main_testcase_2(capfd):
 def test_main_testcase_3(capfd):
     main(0, 2)
     out, err = capfd.readouterr()
-    assert out == ""
+    assert out == """2
+"""
 
 
 # * Testcase 4
@@ -61,7 +62,8 @@ def test_main_testcase_4(capfd):
 def test_main_testcase_5(capfd):
     main(2, 16)
     out, err = capfd.readouterr()
-    assert out == """3
+    assert out == """2
+3
 5
 7
 11

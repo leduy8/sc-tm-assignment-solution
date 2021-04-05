@@ -14,7 +14,7 @@ Sample output: 3
 
 def main(start, end):
     for num in range(start, end + 1):
-        if (num <= 2):
+        if (num < 2):
             continue
 
         prime = True
